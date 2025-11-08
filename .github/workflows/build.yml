@@ -17,7 +17,7 @@ on:
 
 jobs:
   build:
-    if: ${{ github.repository == 'Cinlends/SubConv' }}
+    if: github.repository == 'SubConv/SubConv'
     strategy:
       matrix:
         os: [windows-latest, ubuntu-latest, macos-latest]
